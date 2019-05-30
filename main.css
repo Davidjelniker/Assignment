@@ -1,0 +1,30 @@
+<DOCTYPE html>
+<html>
+    <link href="main.css" rel="stylesheet" type="text/css">
+   <head>
+    <h1 class="headtext">
+        Year-In Review
+       </h1>
+  <div>
+  <ul>
+  <li><a href="page.html">Here</a></li>
+  <li><a href="page.html">Are</a></li>
+  <li><a href="page.html">Some</a></li>
+  <li><a href="page.html">Pages</a></li>
+        </ul> 
+    </div>
+   
+    <p class="text" style="text-align:center;">
+          This year was pretty cool I guess
+       </p>
+   <img class="images" src="thisisanimage.jpg">
+   <p class="text" style="text-align:center;">
+       I registered for the SAT
+       </p>
+   <img class="images" src="otherimage.jpg">
+   <p class="text" style="text-align:center;">
+       I tried PB and J for the first time
+       </p>
+   <img class="imagespbj" src="pbj.jpg">
+  </head>
+</html>

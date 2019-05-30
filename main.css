@@ -1,30 +1,84 @@
-<DOCTYPE html>
-<html>
-    <link href="main.css" rel="stylesheet" type="text/css">
-   <head>
-    <h1 class="headtext">
-        Year-In Review
-       </h1>
-  <div>
-  <ul>
-  <li><a href="page.html">Here</a></li>
-  <li><a href="page.html">Are</a></li>
-  <li><a href="page.html">Some</a></li>
-  <li><a href="page.html">Pages</a></li>
-        </ul> 
-    </div>
-   
-    <p class="text" style="text-align:center;">
-          This year was pretty cool I guess
-       </p>
-   <img class="images" src="thisisanimage.jpg">
-   <p class="text" style="text-align:center;">
-       I registered for the SAT
-       </p>
-   <img class="images" src="otherimage.jpg">
-   <p class="text" style="text-align:center;">
-       I tried PB and J for the first time
-       </p>
-   <img class="imagespbj" src="pbj.jpg">
-  </head>
-</html>
+.headtext {
+    
+    font-family: "Times New Roman", Times, serif;
+    text-align:center;
+    border-style:solid;
+    border-radius:8px;
+    box-sizing:border-box;
+    width:30%;
+    color: blue;
+    text-shadow:3px 2px purple;
+    margin-left:475px;
+    
+}
+
+.text {
+    
+    font-family: "aldrich", times, serif;
+    color: purple;
+    font-size: 20px;
+    font-weight:bold;
+    text-shadow:1px 1px blue;
+    word-spacing:10px;
+    
+}
+
+.images {
+    
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:40%;
+    border-radius:8px;
+    border-style:solid;
+    border-color:blueviolet;
+}
+
+html {
+    background-image:url("background.jpg");
+    background-repeat:no-repeat;
+    background-size:200%;
+    
+}
+
+.imagespbj {
+
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:40%;
+    border-radius:8px;
+    border-style:solid;
+    border-color:blueviolet;
+    height:60%;
+}
+
+ul {
+  
+  border: 2px solid blue;
+  border-radius: 8px;
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  background-image:background.jpg;
+  width:19%
+}
+
+li {
+  float: left;
+}
+
+li a {
+
+  display: block;
+  color: purple;
+  text-shadow:1px 1px purple;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: lightslategray;
+}
